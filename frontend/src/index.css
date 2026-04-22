@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #fff;
+  margin: 0;
+}
+
+/* Container */
+.dashboard {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.role {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.role.admin {
+  background: #22c55e;
+}
+
+.role.user {
+  background: #3b82f6;
+}
+
+/* Input */
+.task-input {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.task-input button {
+  padding: 10px;
+  background: #22c55e;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Task list */
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-card {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  background: #ef4444;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Login/Register Container */
+.container {
+  width: 400px;
+  margin: 80px auto;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #22c55e;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
