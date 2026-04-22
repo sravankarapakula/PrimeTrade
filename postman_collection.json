@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "PrimeTrade API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:4000/api/v1/users/register"
+      }
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:4000/api/v1/users/login"
+      }
+    },
+    {
+      "name": "Get Tasks",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:4000/api/v1/tasks"
+      }
+    }
+  ]
+}
